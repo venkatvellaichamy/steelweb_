@@ -1,0 +1,108 @@
+/*
+.checkbox,
+.radio {
+  // Reset bootstraps 30px left padding for 'checkbox' and 'radio' classes
+  label {
+    padding-left: 0px;
+  }
+
+  // Setting the font size here is what controls the icon size
+  .icons {
+    // Import the font-awesome image stack classes
+    .icon-stack;
+    .icon-lg;
+
+    // Reset the bootstrap 'checkbox' line height adjustments
+    height: 1em;
+    width: 1em;
+    line-height: 1em;
+
+    // Add some spacing between the icons and label
+    margin-right: 5px;
+
+    .icon {
+      color: @gray-dark;
+      .icon-stack-1x;
+    }
+
+    .icon.backdrop {
+      color: @white;
+      // The backdrop for the checkbox needs to be 
+      // pulled up a bit since we drop the font size by 3px
+      margin-top: -2px;
+    }
+
+    .icon.backdrop:focus {
+      text-shadow: 1px 1px 14px @turquoise;
+    }
+  }
+
+  // Hide the default styling of the inputs
+  input[type='checkbox'],
+  input[type='radio'] {
+    opacity: 0;
+  }
+}
+
+.checkbox,
+.radio {
+  input[type='checkbox']:focus + .icons,
+  input[type='radio']:focus + .icons {
+    .icon.backdrop {
+      text-shadow: 1px 1px 14px @turquoise;
+    }
+  }
+}
+
+.checkbox.modified,
+.radio.modified {
+  .icon {
+    color: @turquoise;
+  }
+}
+
+.checkbox.disabled,
+.radio.disabled {
+  .icon {
+    color: @gray-light;
+  }
+  .icon.backdrop {
+    color: @gray;
+    opacity: 1;
+  }
+}
+*/
+
+/*// Use dynamic content generation to insert the desired font*/
+/*// icon from font-awesome in place*/
+/*
+.radio {
+  .icon.checked:before {
+    content: @fa-var-dot-circle-o;
+  }
+  .icon.unchecked:before {
+    content: @fa-var-circle-o;
+  }
+  .icon.backdrop:before {
+    font-size: 0.8em;
+    content: @fa-var-circle;
+  }
+}
+
+.checkbox {
+  .icon.checked:before {
+    content: @fa-var-check-square;
+  }
+  .icon.unchecked:before {
+    content: @fa-var-square-o;
+    font-weight: bold;
+  }
+  .icon.indet:before {
+    content: @fa-var-minus-square;
+  }
+  .icon.backdrop:before {
+    font-size: 0.8em;
+    content: @fa-var-square;
+  }
+}
+*/

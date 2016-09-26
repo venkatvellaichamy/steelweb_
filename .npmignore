@@ -1,0 +1,9 @@
+bigfoot
+lib
+dist
+node_modules
+typings
+npm-debug.log
+
+# Don't store WebStorm files
+.idea/

@@ -1,0 +1,1799 @@
+.bf-or {
+  /*Standard Color Palette*/
+  /*Chart Colors*/
+  /* A mixin for generating color classes */
+  /* Standard Swatch definitions */
+  /* Chart Swatch definitions */
+  /*
+ * Scaffolding
+ *
+ * Update the basics of our documents to prep for docs content.
+ */
+  /* Keep code small in tables on account of limited space */
+  /* Inline code within headings retain the heading's background-color */
+  /* Outline button for use within the docs */
+  /* Inverted outline button (white on dark) */
+  /*
+ * Fancy skip link
+ *
+ * Make it look a bit less "bare bones"
+ * Also includes focus suppression for the Chrome tabindex="-1" workaround
+ */
+  /*
+ * Main navigation
+ *
+ * Turn the `.navbar` at the top of the docs purple.
+ */
+  /*
+ * Footer
+ *
+ * Separated section of content at the bottom of all pages, save the homepage.
+ */
+  /*
+ * Social buttons
+ *
+ * Twitter and GitHub social action buttons (for homepage and footer).
+ */
+  /* Style the GitHub buttons via CSS instead of inline attributes */
+  /*
+ * Homepage
+ *
+ * Tweaks to the custom homepage and the masthead (main jumbotron).
+ */
+  /* Share masthead with page headers */
+  /* Masthead (headings and download button) */
+  /*
+ * Page headers
+ *
+ * Jumbotron-esque headers at the top of every page that's not the homepage.
+ */
+  /* Page headers */
+  /*
+ * Examples
+ *
+ * Linked docs examples.
+ */
+  /*
+ * Side navigation
+ *
+ * Scrollspy and affixed enhanced navigation to highlight sections and secondary
+ * sections of docs content.
+ */
+  /* By default it's not affixed in mobile views, so undo that */
+  /* First level of nav */
+  /* All levels of nav */
+  /* Nav: second level (shown on .active) */
+  /* Back to top (hidden on mobile) */
+  /* Show and affix the side nav when space allows it */
+  /*
+ * Docs sections
+ *
+ * Content blocks for each component or feature.
+ */
+  /* Space things out */
+  /*
+ * Callouts
+ *
+ * Not quite alerts, but custom and helpful notes for folks reading the docs.
+ * Requires a base and modifier class.
+ */
+  /* Common styles for all types */
+  /* Tighten up space between multiple callouts */
+  /* Variations */
+  /*
+ * Color swatches
+ *
+ * Color swatches and associated values for our grayscale and brand colors.
+ */
+  /* Framework colors */
+  /* Docs colors */
+  /*
+ * Team members
+ *
+ * Avatars, names, and usernames for core team.
+ */
+  /*
+ * Wall of Browser Bugs
+ *
+ * Better display for the responsive table on the Wall of Browser Bugs.
+ */
+  /*
+ * Grid examples
+ *
+ * Highlight the grid columns within the docs so folks can see their padding,
+ * alignment, sizing, etc.
+ */
+  /*
+ * Examples
+ *
+ * Isolated sections of example content for each component or feature. Usually
+ * followed by a code snippet.
+ */
+  /* Echo out a label for the example */
+  /* Tweak display of the code snippets when following an example */
+  /* Make the examples and snippets not full-width */
+  /* Undo width of container */
+  /* Tweak content of examples for optimum awesome */
+  /* Typography */
+  /* Contextual background colors */
+  /* Images */
+  /* Tables */
+  /* Buttons */
+  /* Forms */
+  /* List groups */
+  /* Navbars */
+  /* Pagination */
+  /* Pager */
+  /* Example modals */
+  /* Example dropdowns */
+  /* Example tabbable tabs */
+  /* Tooltips */
+  /* Popovers */
+  /* Scrollspy demo on fixed height div */
+  /* Simple collapse example */
+  /* Don't wrap event names in Events tables in JS plugin docs */
+  /*
+ * Code snippets
+ *
+ * Generated via Pygments and Jekyll, these are snippets of HTML, CSS, and JS.
+ */
+  /*
+ * Responsive tests
+ *
+ * Generate a set of tests to show the responsive utilities in action.
+ */
+  /* Responsive (scrollable) doc tables */
+  /* Utility classes table  */
+  /* Responsive tests */
+  /*
+ * Glyphicons
+ *
+ * Special styles for displaying the icons and their classes in the docs.
+ */
+  /*
+ * Customizer
+ *
+ * Since this is so form control heavy, we have quite a few styles to customize
+ * the display of inputs, headings, and more. Also included are all the download
+ * buttons and actions.
+ */
+  /* Headings and form contrls */
+  /* For the variables, use regular weight */
+  /* Downloads */
+  /* Error handling */
+  /*.bf-dropzone*/
+  /*
+ * Brand guidelines
+ *
+ * Extra styles for displaying wordmarks, logos, etc.
+ */
+  /* Logo series wrapper */
+  /* Individual items */
+  /* Heading content within */
+  /* Make the icons stand out on what is/isn't okay */
+  /*
+ * ZeroClipboard styles
+ */
+  /*
+ * AnchorJS Styles
+ */
+  /*
+ * Miscellaneous
+ *
+ * Odds and ends for optimum docs display.
+ */
+  /* Pseudo :focus state for showing how it looks in the docs */
+  /*
+ * Bigfoot overrides
+ *
+ */
+  /*
+ * Color swatches
+ *
+ */
+  /* A mixin for generating swatch classes */
+  /* Standard Swatch definitions */
+  /* Chart Swatch definitions */
+  /*Lighter swatches need darker text*/
+}
+.bf-or .bg-emerald {
+  background-color: #2ecc71;
+}
+.bf-or .emerald {
+  color: #2ecc71;
+}
+.bf-or .bg-pistachio {
+  background-color: #c9ead7;
+}
+.bf-or .pistachio {
+  color: #c9ead7;
+}
+.bf-or .bg-green {
+  background-color: #27ae60;
+}
+.bf-or .green {
+  color: #27ae60;
+}
+.bf-or .bg-oasis {
+  background-color: #fce6c4;
+}
+.bf-or .oasis {
+  color: #fce6c4;
+}
+.bf-or .bg-sunflower {
+  background-color: #f1c40f;
+}
+.bf-or .sunflower {
+  color: #f1c40f;
+}
+.bf-or .bg-orange {
+  background-color: #f39c12;
+}
+.bf-or .orange {
+  color: #f39c12;
+}
+.bf-or .bg-sundown {
+  background-color: #fae7ea;
+}
+.bf-or .sundown {
+  color: #fae7ea;
+}
+.bf-or .bg-tomato {
+  background-color: #e74b3b;
+}
+.bf-or .tomato {
+  color: #e74b3b;
+}
+.bf-or .bg-pomegranate {
+  background-color: #bf382a;
+}
+.bf-or .pomegranate {
+  color: #bf382a;
+}
+.bf-or .bg-lilac {
+  background-color: #e3d0ea;
+}
+.bf-or .lilac {
+  color: #e3d0ea;
+}
+.bf-or .bg-amethyst {
+  background-color: #af79c5;
+}
+.bf-or .amethyst {
+  color: #af79c5;
+}
+.bf-or .bg-wisteria {
+  background-color: #8e44ad;
+}
+.bf-or .wisteria {
+  color: #8e44ad;
+}
+.bf-or .bg-mint {
+  background-color: #c4e7e0;
+}
+.bf-or .mint {
+  color: #c4e7e0;
+}
+.bf-or .bg-turquoise {
+  background-color: #1abc9c;
+}
+.bf-or .turquoise {
+  color: #1abc9c;
+}
+.bf-or .bg-green-sea {
+  background-color: #16a085;
+}
+.bf-or .green-sea {
+  color: #16a085;
+}
+.bf-or .bg-creamsicle {
+  background-color: #fdd5b5;
+}
+.bf-or .creamsicle {
+  color: #fdd5b5;
+}
+.bf-or .bg-carrot {
+  background-color: #f16722;
+}
+.bf-or .carrot {
+  color: #f16722;
+}
+.bf-or .bg-red {
+  background-color: #d53b23;
+}
+.bf-or .red {
+  color: #d53b23;
+}
+.bf-or .bg-sail {
+  background-color: #c9dfed;
+}
+.bf-or .sail {
+  color: #c9dfed;
+}
+.bf-or .bg-sky {
+  background-color: #3498db;
+}
+.bf-or .sky {
+  color: #3498db;
+}
+.bf-or .bg-blue {
+  background-color: #2980b9;
+}
+.bf-or .blue {
+  color: #2980b9;
+}
+.bf-or .bg-rain {
+  background-color: #b4c6d6;
+}
+.bf-or .rain {
+  color: #b4c6d6;
+}
+.bf-or .bg-wet-asphalt {
+  background-color: #4c638c;
+}
+.bf-or .wet-asphalt {
+  color: #4c638c;
+}
+.bf-or .bg-midnight-blue {
+  background-color: #2b3d4f;
+}
+.bf-or .midnight-blue {
+  color: #2b3d4f;
+}
+.bf-or .bg-clouds {
+  background-color: #ebeff1;
+}
+.bf-or .clouds {
+  color: #ebeff1;
+}
+.bf-or .bg-platinum {
+  background-color: #dde1e2;
+}
+.bf-or .platinum {
+  color: #dde1e2;
+}
+.bf-or .bg-silver {
+  background-color: #bcc2c7;
+}
+.bf-or .silver {
+  color: #bcc2c7;
+}
+.bf-or .bg-concrete {
+  background-color: #95a5a6;
+}
+.bf-or .concrete {
+  color: #95a5a6;
+}
+.bf-or .bg-storm {
+  background-color: #545b5b;
+}
+.bf-or .storm {
+  color: #545b5b;
+}
+.bf-or .bg-white {
+  background-color: #ffffff;
+}
+.bf-or .white {
+  color: #ffffff;
+}
+.bf-or .bg-rvbd-orange {
+  background-color: #ff671b;
+}
+.bf-or .rvbd-orange {
+  color: #ff671b;
+}
+.bf-or .bg-rvbd-orange-light {
+  background-color: #ff9560;
+}
+.bf-or .rvbd-orange-light {
+  color: #ff9560;
+}
+.bf-or .bg-ruby {
+  background-color: #e61261;
+}
+.bf-or .ruby {
+  color: #e61261;
+}
+.bf-or .bg-sunset {
+  background-color: #f16722;
+}
+.bf-or .sunset {
+  color: #f16722;
+}
+.bf-or .bg-malibu {
+  background-color: #57addd;
+}
+.bf-or .malibu {
+  color: #57addd;
+}
+.bf-or .bg-dandelion {
+  background-color: #ffd961;
+}
+.bf-or .dandelion {
+  color: #ffd961;
+}
+.bf-or .bg-majesty {
+  background-color: #a87ebc;
+}
+.bf-or .majesty {
+  color: #a87ebc;
+}
+.bf-or .bg-olive {
+  background-color: #527109;
+}
+.bf-or .olive {
+  color: #527109;
+}
+.bf-or .bg-bittersweet {
+  background-color: #f76561;
+}
+.bf-or .bittersweet {
+  color: #f76561;
+}
+.bf-or .bg-meadow {
+  background-color: #16c4a3;
+}
+.bf-or .meadow {
+  color: #16c4a3;
+}
+.bf-or .bg-orchid {
+  background-color: #a11d89;
+}
+.bf-or .orchid {
+  color: #a11d89;
+}
+.bf-or .bg-granny-smith {
+  background-color: #53c159;
+}
+.bf-or .granny-smith {
+  color: #53c159;
+}
+.bf-or .bg-cinnabar {
+  background-color: #d53b23;
+}
+.bf-or .cinnabar {
+  color: #d53b23;
+}
+.bf-or .bg-lemon {
+  background-color: #f1c40f;
+}
+.bf-or .lemon {
+  color: #f1c40f;
+}
+.bf-or .bg-calypso {
+  background-color: #3e7285;
+}
+.bf-or .calypso {
+  color: #3e7285;
+}
+.bf-or .text-critical {
+  color: #bf382a;
+}
+.bf-or .text-degraded {
+  color: #f39c12;
+}
+.bf-or .text-healthy-attn {
+  color: #27ae60;
+}
+.bf-or .bg-critical {
+  color: #bf382a;
+}
+.bf-or .bg-degraded {
+  color: #f39c12;
+}
+.bf-or .bg-healthy-attn {
+  color: #27ae60;
+}
+.bf-or body {
+  position: relative;
+  /* For scrollspy */
+}
+.bf-or .table code {
+  font-size: 13px;
+  font-weight: normal;
+}
+.bf-or h2 code,
+.bf-or h3 code,
+.bf-or h4 code {
+  background-color: inherit;
+}
+.bf-or .btn-outline {
+  color: #545b5b;
+  background-color: transparent;
+  border-color: #545b5b;
+}
+.bf-or .btn-outline:hover,
+.bf-or .btn-outline:focus,
+.bf-or .btn-outline:active {
+  color: #fff;
+  background-color: #545b5b;
+  border-color: #545b5b;
+}
+.bf-or .btn-outline-inverse {
+  color: #fff;
+  background-color: transparent;
+  border-color: #cdbfe3;
+}
+.bf-or .btn-outline-inverse:hover,
+.bf-or .btn-outline-inverse:focus,
+.bf-or .btn-outline-inverse:active {
+  color: #545b5b;
+  text-shadow: none;
+  background-color: #fff;
+  border-color: #fff;
+}
+.bf-or #skippy {
+  display: block;
+  padding: 1em;
+  color: #fff;
+  background-color: #6f5499;
+  outline: 0;
+}
+.bf-or #skippy .skiplink-text {
+  padding: .5em;
+  outline: 1px dotted;
+}
+.bf-or #content:focus {
+  outline: none;
+}
+.bf-or .bf-docs-nav {
+  margin-bottom: 0;
+  background-color: #fff;
+  border-bottom: 0;
+}
+.bf-or .bf-home-nav .bf-nav-b {
+  display: none;
+}
+.bf-or .bf-docs-nav .navbar-brand,
+.bf-or .bf-docs-nav .navbar-nav > li > a {
+  font-weight: 500;
+  color: #545b5b;
+}
+.bf-or .bf-docs-nav .navbar-nav > li > a:hover,
+.bf-or .bf-docs-nav .navbar-nav > .active > a,
+.bf-or .bf-docs-nav .navbar-nav > .active > a:hover {
+  color: #463265;
+  background-color: #f9f9f9;
+}
+.bf-or .bf-docs-nav .navbar-toggle .icon-bar {
+  background-color: #563d7c;
+}
+.bf-or .bf-docs-nav .navbar-header .navbar-toggle {
+  border-color: #fff;
+}
+.bf-or .bf-docs-nav .navbar-header .navbar-toggle:hover,
+.bf-or .bf-docs-nav .navbar-header .navbar-toggle:focus {
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+}
+.bf-or .bf-docs-footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 100px;
+  color: #767676;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+}
+.bf-or .bf-docs-footer-links {
+  padding-left: 0;
+  margin-top: 20px;
+}
+.bf-or .bf-docs-footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.bf-or .bf-docs-footer-links li:first-child {
+  padding-left: 0;
+}
+@media (min-width: 768px) {
+  .bf-or .bf-docs-footer p {
+    margin-bottom: 0;
+  }
+}
+.bf-or .bf-docs-social {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.bf-or .bf-docs-social-buttons,
+.bf-or .theme-list {
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.bf-or .bf-docs-social-buttons li,
+.bf-or .theme-list li {
+  display: inline-block;
+  padding: 5px 8px;
+  line-height: 1;
+}
+.bf-or .bf-docs-social-buttons .twitter-follow-button {
+  width: 225px !important;
+}
+.bf-or .bf-docs-social-buttons .twitter-share-button {
+  width: 98px !important;
+}
+.bf-or .github-btn {
+  overflow: hidden;
+  border: 0;
+}
+.bf-or .bf-docs-masthead,
+.bf-or .bf-docs-header {
+  position: relative;
+  padding: 30px 0;
+  color: #cdbfe3;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  background-color: #2C3E50;
+}
+.bf-or .bf-docs-masthead .bf-docs-booticon {
+  margin: 0 auto 30px;
+}
+.bf-or .bf-docs-masthead h1 {
+  font-weight: 300;
+  line-height: 1;
+  color: #fff;
+}
+.bf-or .bf-docs-masthead .lead {
+  margin: 0 auto 30px;
+  font-size: 20px;
+  color: #fff;
+}
+.bf-or .bf-docs-masthead .version {
+  margin-top: -15px;
+  margin-bottom: 30px;
+  color: #9783b9;
+}
+.bf-or .bf-docs-masthead .btn {
+  width: 100%;
+  padding: 15px 30px;
+  font-size: 20px;
+}
+@media (min-width: 480px) {
+  .bf-or .bf-docs-masthead .btn {
+    width: auto;
+  }
+}
+@media (min-width: 768px) {
+  .bf-or .bf-docs-masthead {
+    padding: 80px 0;
+  }
+  .bf-or .bf-docs-masthead h1 {
+    font-size: 60px;
+  }
+  .bf-or .bf-docs-masthead .lead {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  .bf-or .bf-docs-masthead .lead {
+    width: 80%;
+    font-size: 30px;
+  }
+}
+.bf-or .bf-docs-header {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.bf-or .bf-docs-header h1 {
+  margin-top: 0;
+  color: #fff;
+}
+.bf-or .bf-docs-header p {
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.bf-or .bf-docs-header .container {
+  position: relative;
+}
+@media (min-width: 768px) {
+  .bf-or .bf-docs-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: left;
+  }
+  .bf-or .bf-docs-header h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+}
+@media (min-width: 992px) {
+  .bf-or .bf-docs-header h1,
+  .bf-or .bf-docs-header p {
+    margin-right: 380px;
+  }
+}
+.bf-or .bf-examples .thumbnail {
+  margin-bottom: 10px;
+}
+.bf-or .bf-examples h4 {
+  margin-bottom: 5px;
+}
+.bf-or .bf-examples p {
+  margin-bottom: 20px;
+}
+@media (max-width: 480px) {
+  .bf-or .bf-examples {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  .bf-or .bf-examples > [class^="col-"] {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+.bf-or .bf-docs-sidebar.affix {
+  position: static;
+}
+.bf-or .bf-docs-sidenav {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.bf-or .bf-docs-sidebar .nav > li > a {
+  display: block;
+  padding: 4px 0px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #2b3d4f;
+  border-bottom: 0;
+}
+.bf-or .bf-docs-sidebar .nav > li > a:hover,
+.bf-or .bf-docs-sidebar .nav > li > a:focus {
+  padding-left: 19px;
+  color: #545b5b;
+  text-decoration: none;
+  background-color: transparent;
+  border-left: 1px solid #545b5b;
+  border-bottom: 0;
+}
+.bf-or .bf-docs-sidebar .nav > .active > a,
+.bf-or .bf-docs-sidebar .nav > .active:hover > a,
+.bf-or .bf-docs-sidebar .nav > .active:focus > a {
+  padding-left: 18px;
+  font-weight: bold;
+  color: #545b5b;
+  background-color: transparent;
+  border-left: 2px solid #545b5b;
+}
+.bf-or .bf-docs-sidebar .nav .nav {
+  display: none;
+  /* Hide by default, but at >768px, show it */
+  padding-bottom: 10px;
+}
+.bf-or .bf-docs-sidebar .nav .nav > li > a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  font-size: 12px;
+  font-weight: normal;
+}
+.bf-or .bf-docs-sidebar .nav .nav > li > a:hover,
+.bf-or .bf-docs-sidebar .nav .nav > li > a:focus {
+  padding-left: 29px;
+}
+.bf-or .bf-docs-sidebar .nav .nav > .active > a,
+.bf-or .bf-docs-sidebar .nav .nav > .active:hover > a,
+.bf-or .bf-docs-sidebar .nav .nav > .active:focus > a {
+  padding-left: 28px;
+  font-weight: 500;
+}
+.bf-or .back-to-top,
+.bf-or .bf-docs-theme-toggle {
+  display: none;
+  padding: 4px 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #999;
+  border-bottom: 0;
+}
+.bf-or .back-to-top:hover,
+.bf-or .bf-docs-theme-toggle:hover {
+  color: #563d7c;
+  text-decoration: none;
+  border-bottom: 0;
+}
+.bf-or .bf-docs-theme-toggle {
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  .bf-or .back-to-top,
+  .bf-or .bf-docs-theme-toggle {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .bf-or {
+    /* Widen the fixed sidebar */
+  }
+  .bf-or .bf-docs-sidebar .nav > .active > ul {
+    display: block;
+  }
+  .bf-or .bf-docs-sidebar.affix,
+  .bf-or .bf-docs-sidebar.affix-bottom {
+    width: 213px;
+  }
+  .bf-or .bf-docs-sidebar.affix {
+    position: fixed;
+    /* Undo the static from mobile first approach */
+    top: 20px;
+  }
+  .bf-or .bf-docs-sidebar.affix-bottom {
+    position: absolute;
+    /* Undo the static from mobile first approach */
+  }
+  .bf-or .bf-docs-sidebar.affix-bottom .bf-docs-sidenav,
+  .bf-or .bf-docs-sidebar.affix .bf-docs-sidenav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .bf-or {
+    /* Widen the fixed sidebar again */
+  }
+  .bf-or .bf-docs-sidebar.affix-bottom,
+  .bf-or .bf-docs-sidebar.affix {
+    width: 263px;
+  }
+}
+.bf-or .bf-docs-section {
+  margin-bottom: 60px;
+}
+.bf-or .bf-docs-section:last-child {
+  margin-bottom: 0;
+}
+.bf-or h1[id] {
+  padding-top: 20px;
+  margin-top: 0;
+}
+.bf-or .bf-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+.bf-or .bf-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.bf-or .bf-callout p:last-child {
+  margin-bottom: 0;
+}
+.bf-or .bf-callout code {
+  border-radius: 3px;
+}
+.bf-or .bf-callout + .bf-callout {
+  margin-top: -5px;
+}
+.bf-or .bf-callout-danger {
+  border-left-color: #ce4844;
+}
+.bf-or .bf-callout-danger h4 {
+  color: #ce4844;
+}
+.bf-or .bf-callout-warning {
+  border-left-color: #aa6708;
+}
+.bf-or .bf-callout-warning h4 {
+  color: #aa6708;
+}
+.bf-or .bf-callout-info {
+  border-left-color: #1b809e;
+}
+.bf-or .bf-callout-info h4 {
+  color: #1b809e;
+}
+.bf-or .color-swatches {
+  margin: 0 -5px;
+  overflow: hidden;
+  /* clearfix */
+}
+.bf-or .color-swatch {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 0 5px;
+  border-radius: 3px;
+}
+@media (min-width: 768px) {
+  .bf-or .color-swatch {
+    width: 100px;
+    height: 100px;
+  }
+}
+.bf-or .color-swatches .gray-darker {
+  background-color: #222;
+}
+.bf-or .color-swatches .gray-dark {
+  background-color: #333;
+}
+.bf-or .color-swatches .gray {
+  background-color: #555;
+}
+.bf-or .color-swatches .gray-light {
+  background-color: #999;
+}
+.bf-or .color-swatches .gray-lighter {
+  background-color: #eee;
+}
+.bf-or .color-swatches .brand-primary {
+  background-color: #337ab7;
+}
+.bf-or .color-swatches .brand-success {
+  background-color: #5cb85c;
+}
+.bf-or .color-swatches .brand-warning {
+  background-color: #f0ad4e;
+}
+.bf-or .color-swatches .brand-danger {
+  background-color: #d9534f;
+}
+.bf-or .color-swatches .brand-info {
+  background-color: #5bc0de;
+}
+.bf-or .color-swatches .bf-purple {
+  background-color: #563d7c;
+}
+.bf-or .color-swatches .bf-purple-light {
+  background-color: #c7bfd3;
+}
+.bf-or .color-swatches .bf-purple-lighter {
+  background-color: #e5e1ea;
+}
+.bf-or .color-swatches .bf-gray {
+  background-color: #f9f9f9;
+}
+.bf-or .bf-team .team-member {
+  line-height: 32px;
+  color: #555;
+}
+.bf-or .bf-team .team-member:hover {
+  color: #333;
+  text-decoration: none;
+}
+.bf-or .bf-team .github-btn {
+  float: right;
+  width: 180px;
+  height: 20px;
+  margin-top: 6px;
+}
+.bf-or .bf-team img {
+  float: left;
+  width: 32px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.bf-or .bf-docs-browser-bugs td p {
+  margin-bottom: 0;
+}
+.bf-or .bf-docs-browser-bugs th:first-child {
+  width: 18%;
+}
+.bf-or .show-grid {
+  margin-bottom: 15px;
+}
+.bf-or .show-grid [class^="col-"] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #c9dfed;
+  border: 1px solid #3498db;
+}
+.bf-or .bf-example {
+  position: relative;
+  padding: 45px 15px 15px;
+  margin: 0 -15px 15px;
+  border-color: #e5e5e5 #eee #eee;
+  border-style: solid;
+  border-width: 1px 0;
+  -webkit-box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+.bf-or .bf-example:after {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #959595;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  content: "Example";
+}
+.bf-or .bf-example-padded-bottom {
+  padding-bottom: 24px;
+}
+.bf-or .bf-example + .highlight,
+.bf-or .bf-example + .zero-clipboard + .highlight {
+  margin: -15px -15px 15px;
+  border-width: 0 0 1px;
+  border-radius: 0;
+}
+@media (min-width: 768px) {
+  .bf-or .bf-example {
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #ebeff1;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 4px 4px 0 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .bf-or .bf-example + .highlight,
+  .bf-or .bf-example + .zero-clipboard + .highlight {
+    margin-top: -16px;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 1px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .bf-or .bf-example-standalone {
+    border-radius: 4px;
+  }
+}
+.bf-or .bf-example .container {
+  width: auto;
+}
+.bf-or .bf-example > p:last-child,
+.bf-or .bf-example > ul:last-child,
+.bf-or .bf-example > ol:last-child,
+.bf-or .bf-example > blockquote:last-child,
+.bf-or .bf-example > .form-control:last-child,
+.bf-or .bf-example > .table:last-child,
+.bf-or .bf-example > .navbar:last-child,
+.bf-or .bf-example > .jumbotron:last-child,
+.bf-or .bf-example > .alert:last-child,
+.bf-or .bf-example > .panel:last-child,
+.bf-or .bf-example > .list-group:last-child,
+.bf-or .bf-example > .well:last-child,
+.bf-or .bf-example > .progress:last-child,
+.bf-or .bf-example > .table-responsive:last-child > .table {
+  margin-bottom: 0;
+}
+.bf-or .bf-example > p > .close {
+  float: none;
+}
+.bf-or .bf-example-type .table .type-info {
+  color: #767676;
+  vertical-align: middle;
+}
+.bf-or .bf-example-type .table td {
+  padding: 15px 0;
+  border-color: #eee;
+}
+.bf-or .bf-example-type .table tr:first-child td {
+  border-top: 0;
+}
+.bf-or .bf-example-type h1,
+.bf-or .bf-example-type h2,
+.bf-or .bf-example-type h3,
+.bf-or .bf-example-type h4,
+.bf-or .bf-example-type h5,
+.bf-or .bf-example-type h6 {
+  margin: 0;
+}
+.bf-or .bf-example-type .big-letters {
+  font-size: 72px;
+}
+.bf-or .bf-example-type .container-row-border {
+  margin-top: 40px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.bf-or .row-header-warning {
+  font-size: 18px;
+}
+.bf-or .font-appliance .font-name,
+.bf-or .font-appliance .big-letters,
+.bf-or .font-appliance .char-set {
+  font-family: Anto;
+}
+.bf-or .font-product .font-name,
+.bf-or .font-product .big-letters,
+.bf-or .font-product .char-set {
+  font-family: Alte;
+}
+@media (max-width: 768px) {
+  .bf-or .bf-example-type .row .container-row-border {
+    border: 1px solid #ddd;
+  }
+  .bf-or .bf-example-type .font-regular,
+  .bf-or .bf-example-type .font-bold,
+  .bf-or .bf-example-type .font-appliance,
+  .bf-or .bf-example-type .font-product {
+    padding: 15px 0;
+  }
+  .bf-or .bf-example-type .font-bold,
+  .bf-or .bf-example-type font-product {
+    border-top: 1px solid #ddd;
+  }
+}
+.bf-or .bf-example-bg-classes p {
+  padding: 15px;
+}
+.bf-or .bf-example > .img-circle,
+.bf-or .bf-example > .img-rounded,
+.bf-or .bf-example > .img-thumbnail {
+  margin: 5px;
+}
+.bf-or .bf-example > .table-responsive > .table {
+  background-color: #ebeff1;
+}
+.bf-or .bf-example > .btn,
+.bf-or .bf-example > .btn-group {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.bf-or .bf-example > .btn-toolbar + .btn-toolbar {
+  margin-top: 10px;
+}
+.bf-or .bf-example-control-sizing select,
+.bf-or .bf-example-control-sizing input[type="text"] + input[type="text"] {
+  margin-top: 10px;
+}
+.bf-or .bf-example-form .input-group {
+  margin-bottom: 10px;
+}
+.bf-or .bf-example > textarea.form-control {
+  resize: vertical;
+}
+.bf-or .bf-example > .list-group {
+  max-width: 400px;
+}
+.bf-or .bf-example .navbar:last-child {
+  margin-bottom: 0;
+}
+.bf-or .bf-navbar-top-example,
+.bf-or .bf-navbar-bottom-example {
+  z-index: 1;
+  padding: 0;
+  overflow: hidden;
+  /* cut the drop shadows off */
+}
+.bf-or .bf-navbar-top-example .navbar-header,
+.bf-or .bf-navbar-bottom-example .navbar-header {
+  margin-left: 0;
+}
+.bf-or .bf-navbar-top-example .navbar-fixed-top,
+.bf-or .bf-navbar-bottom-example .navbar-fixed-bottom {
+  position: relative;
+  margin-right: 0;
+  margin-left: 0;
+}
+.bf-or .bf-navbar-top-example {
+  padding-bottom: 45px;
+}
+.bf-or .bf-navbar-top-example:after {
+  top: auto;
+  bottom: 15px;
+}
+.bf-or .bf-navbar-top-example .navbar-fixed-top {
+  top: -1px;
+}
+.bf-or .bf-navbar-bottom-example {
+  padding-top: 45px;
+}
+.bf-or .bf-navbar-bottom-example .navbar-fixed-bottom {
+  bottom: -1px;
+}
+.bf-or .bf-navbar-bottom-example .navbar {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .bf-or .bf-navbar-top-example .navbar-fixed-top,
+  .bf-or .bf-navbar-bottom-example .navbar-fixed-bottom {
+    position: absolute;
+  }
+}
+.bf-or .bf-example .pagination {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bf-or .bf-example > .pager {
+  margin-top: 0;
+}
+.bf-or .bf-example-modal {
+  background-color: #f5f5f5;
+}
+.bf-or .bf-example-modal .modal {
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  display: block;
+}
+.bf-or .bf-example-modal .modal-dialog {
+  left: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.bf-or .bf-example > .dropdown > .dropdown-toggle {
+  float: left;
+}
+.bf-or .bf-example > .dropdown > .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 5px;
+  clear: left;
+}
+.bf-or .bf-example-tabs .nav-tabs {
+  margin-bottom: 15px;
+}
+.bf-or .bf-example-tooltips {
+  text-align: center;
+}
+.bf-or .bf-example-tooltips > .btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.bf-or .bf-example-tooltip .tooltip {
+  position: relative;
+  display: inline-block;
+  margin: 10px 20px;
+  opacity: 1;
+}
+.bf-or .bf-example-popover {
+  padding-bottom: 24px;
+  background-color: #f9f9f9;
+}
+.bf-or .bf-example-popover .popover {
+  position: relative;
+  display: block;
+  float: left;
+  width: 260px;
+  margin: 20px;
+}
+.bf-or .scrollspy-example {
+  position: relative;
+  height: 200px;
+  margin-top: 10px;
+  overflow: auto;
+}
+.bf-or .bf-example > .nav-pills-stacked-example {
+  max-width: 300px;
+}
+.bf-or #collapseExample .well {
+  margin-bottom: 0;
+}
+.bf-or .bf-events-table > thead > tr > th:first-child,
+.bf-or .bf-events-table > tbody > tr > td:first-child {
+  white-space: nowrap;
+}
+.bf-or .bf-events-table > thead > tr > th:first-child {
+  width: 150px;
+}
+.bf-or .js-options-table > thead > tr > th:nth-child(1),
+.bf-or .js-options-table > thead > tr > th:nth-child(2) {
+  width: 100px;
+}
+.bf-or .js-options-table > thead > tr > th:nth-child(3) {
+  width: 50px;
+}
+.bf-or .highlight {
+  padding: 9px 14px;
+  margin-bottom: 14px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 4px;
+}
+.bf-or .highlight pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  word-break: normal;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+.bf-or .highlight pre code {
+  font-size: inherit;
+  color: #333;
+  /* Effectively the base text color */
+}
+.bf-or .highlight pre code:first-child {
+  display: inline-block;
+  padding-right: 45px;
+}
+.bf-or .table-responsive .highlight pre {
+  white-space: normal;
+}
+.bf-or .bf-table th small,
+.bf-or .responsive-utilities th small {
+  display: block;
+  font-weight: normal;
+  color: #999;
+}
+.bf-or .responsive-utilities tbody th {
+  font-weight: normal;
+}
+.bf-or .responsive-utilities td {
+  text-align: center;
+}
+.bf-or .responsive-utilities td.is-visible {
+  color: #468847;
+  background-color: #dff0d8 !important;
+}
+.bf-or .responsive-utilities td.is-hidden {
+  color: #ccc;
+  background-color: #f9f9f9 !important;
+}
+.bf-or .responsive-utilities-test {
+  margin-top: 5px;
+}
+.bf-or .responsive-utilities-test .col-xs-6 {
+  margin-bottom: 10px;
+}
+.bf-or .responsive-utilities-test span {
+  display: block;
+  padding: 15px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+  border-radius: 4px;
+}
+.bf-or .visible-on .col-xs-6 .hidden-xs,
+.bf-or .visible-on .col-xs-6 .hidden-sm,
+.bf-or .visible-on .col-xs-6 .hidden-md,
+.bf-or .visible-on .col-xs-6 .hidden-lg,
+.bf-or .hidden-on .col-xs-6 .hidden-xs,
+.bf-or .hidden-on .col-xs-6 .hidden-sm,
+.bf-or .hidden-on .col-xs-6 .hidden-md,
+.bf-or .hidden-on .col-xs-6 .hidden-lg {
+  color: #999;
+  border: 1px solid #ddd;
+}
+.bf-or .visible-on .col-xs-6 .visible-xs-block,
+.bf-or .visible-on .col-xs-6 .visible-sm-block,
+.bf-or .visible-on .col-xs-6 .visible-md-block,
+.bf-or .visible-on .col-xs-6 .visible-lg-block,
+.bf-or .hidden-on .col-xs-6 .visible-xs-block,
+.bf-or .hidden-on .col-xs-6 .visible-sm-block,
+.bf-or .hidden-on .col-xs-6 .visible-md-block,
+.bf-or .hidden-on .col-xs-6 .visible-lg-block {
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+}
+.bf-or .bf-glyphicons {
+  margin: 0 -10px 20px;
+  overflow: hidden;
+}
+.bf-or .bf-glyphicons-list {
+  padding-left: 0;
+  list-style: none;
+}
+.bf-or .bf-glyphicons li {
+  float: left;
+  width: 25%;
+  height: 115px;
+  padding: 10px;
+  font-size: 10px;
+  line-height: 1.4;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #fff;
+}
+.bf-or .bf-glyphicons .glyphicon {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.bf-or .bf-glyphicons .glyphicon-class {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  /* Help out IE10+ with class names */
+}
+.bf-or .bf-glyphicons li:hover {
+  color: #fff;
+  background-color: #563d7c;
+}
+@media (min-width: 768px) {
+  .bf-or .bf-glyphicons {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .bf-or .bf-glyphicons li {
+    width: 12.5%;
+    font-size: 12px;
+  }
+}
+.bf-or .bf-customizer .toggle {
+  float: right;
+  margin-top: 25px;
+}
+.bf-or .bf-customizer label {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #555;
+}
+.bf-or .bf-customizer h2 {
+  padding-top: 30px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.bf-or .bf-customizer h3 {
+  margin-bottom: 0;
+}
+.bf-or .bf-customizer h4 {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.bf-or .bf-customizer .bf-callout h4 {
+  margin-top: 0;
+  /* lame, but due to specificity we have to duplicate */
+  margin-bottom: 5px;
+}
+.bf-or .bf-customizer input[type="text"] {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  background-color: #fafafa;
+}
+.bf-or .bf-customizer .help-block {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.bf-or div.bf-example-help-inline div.form-group {
+  display: inline-block;
+}
+.bf-or div.bf-example-help-inline textarea {
+  height: 115px;
+}
+.bf-or .subnets_label {
+  width: 115px;
+  float: left;
+  margin-right: 3px;
+}
+.bf-or #less-section label {
+  font-weight: normal;
+}
+.bf-or .bf-customize-download .btn-outline {
+  padding: 20px;
+}
+.bf-or .bf-customizer-alert {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  padding: 15px 0;
+  color: #fff;
+  background-color: #d9534f;
+  border-bottom: 1px solid #b94441;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.bf-or .bf-customizer-alert .close {
+  margin-top: -4px;
+  font-size: 24px;
+}
+.bf-or .bf-customizer-alert p {
+  margin-bottom: 0;
+}
+.bf-or .bf-customizer-alert .glyphicon {
+  margin-right: 5px;
+}
+.bf-or .bf-customizer-alert pre {
+  margin: 10px 0 0;
+  color: #fff;
+  background-color: #a83c3a;
+  border-color: #973634;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.bf-or .bf-dropzone {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #777;
+  text-align: center;
+  border: 2px dashed #eee;
+  border-radius: 4px;
+}
+.bf-or .bf-dropzone .import-header {
+  margin-bottom: 5px;
+}
+.bf-or .bf-dropzone .glyphicon-download-alt {
+  font-size: 40px;
+}
+.bf-or .bf-dropzone hr {
+  width: 100px;
+}
+.bf-or .bf-dropzone .lead {
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #333;
+}
+.bf-or #import-manual-trigger {
+  cursor: pointer;
+}
+.bf-or .bf-dropzone p:last-child {
+  margin-bottom: 0;
+}
+.bf-or .bf-brand-logos {
+  display: table;
+  width: 100%;
+  margin-bottom: 15px;
+  overflow: hidden;
+  color: #563d7c;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+.bf-or .bf-brand-item {
+  padding: 60px 0;
+  text-align: center;
+}
+.bf-or .bf-brand-item + .bf-brand-item {
+  border-top: 1px solid #fff;
+}
+.bf-or .bf-brand-logos .inverse {
+  color: #fff;
+  background-color: #563d7c;
+}
+.bf-or .bf-brand-item h1,
+.bf-or .bf-brand-item h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.bf-or .bf-brand-item .bf-docs-booticon {
+  margin-right: auto;
+  margin-left: auto;
+}
+.bf-or .bf-brand-item .glyphicon {
+  width: 30px;
+  height: 30px;
+  margin: 10px auto -10px;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 50%;
+}
+.bf-or .bf-brand-item .glyphicon-ok {
+  background-color: #5cb85c;
+}
+.bf-or .bf-brand-item .glyphicon-remove {
+  background-color: #d9534f;
+}
+@media (min-width: 768px) {
+  .bf-or .bf-brand-item {
+    display: table-cell;
+    width: 1%;
+  }
+  .bf-or .bf-brand-item + .bf-brand-item {
+    border-top: 0;
+    border-left: 1px solid #fff;
+  }
+  .bf-or .bf-brand-item h1 {
+    font-size: 60px;
+  }
+}
+.bf-or .zero-clipboard {
+  position: relative;
+  display: none;
+}
+.bf-or .btn-clipboard {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  display: block;
+  padding: 5px 8px;
+  font-size: 12px;
+  color: #767676;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #e1e1e8;
+  border-radius: 0 4px 0 4px;
+}
+.bf-or .btn-clipboard-hover {
+  color: #fff;
+  background-color: #563d7c;
+  border-color: #563d7c;
+}
+@media (min-width: 768px) {
+  .bf-or .zero-clipboard {
+    display: block;
+  }
+  .bf-or .bf-example + .zero-clipboard .btn-clipboard {
+    top: -16px;
+    border-top-right-radius: 0;
+  }
+}
+.bf-or .anchorjs-link {
+  color: inherit;
+}
+@media (max-width: 480px) {
+  .bf-or .anchorjs-link {
+    display: none;
+  }
+}
+.bf-or *:hover > .anchorjs-link {
+  opacity: .75;
+  -webkit-transition: color .16s linear;
+  -o-transition: color .16s linear;
+  transition: color .16s linear;
+}
+.bf-or *:hover > .anchorjs-link:hover,
+.bf-or .anchorjs-link:focus {
+  text-decoration: none;
+  opacity: 1;
+}
+.bf-or #focusedInput {
+  border-color: #cccccc;
+  /* Restate unfocused value to make CSSLint happy that there's a pre-CSS3 fallback*/
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+  -webkit-box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.bf-or img.bf-docs-logo {
+  padding-left: 32px;
+  padding-top: 8px;
+}
+.bf-or .swatch {
+  padding: 20px 30px;
+  margin-bottom: 0px;
+}
+.bf-or .swatch dd {
+  opacity: 0.8;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.bf-or .swatch-row {
+  margin-bottom: 10px;
+}
+.bf-or .swatch-emerald {
+  background-color: #2ecc71;
+}
+.bf-or .swatch-pistachio {
+  background-color: #c9ead7;
+}
+.bf-or .swatch-green {
+  background-color: #27ae60;
+}
+.bf-or .swatch-oasis {
+  background-color: #fce6c4;
+}
+.bf-or .swatch-sunflower {
+  background-color: #f1c40f;
+}
+.bf-or .swatch-orange {
+  background-color: #f39c12;
+}
+.bf-or .swatch-sundown {
+  background-color: #fae7ea;
+}
+.bf-or .swatch-tomato {
+  background-color: #e74b3b;
+}
+.bf-or .swatch-pomegranate {
+  background-color: #bf382a;
+}
+.bf-or .swatch-lilac {
+  background-color: #e3d0ea;
+}
+.bf-or .swatch-amethyst {
+  background-color: #af79c5;
+}
+.bf-or .swatch-wisteria {
+  background-color: #8e44ad;
+}
+.bf-or .swatch-mint {
+  background-color: #c4e7e0;
+}
+.bf-or .swatch-turquoise {
+  background-color: #1abc9c;
+}
+.bf-or .swatch-green-sea {
+  background-color: #16a085;
+}
+.bf-or .swatch-creamsicle {
+  background-color: #fdd5b5;
+}
+.bf-or .swatch-carrot {
+  background-color: #f16722;
+}
+.bf-or .swatch-red {
+  background-color: #d53b23;
+}
+.bf-or .swatch-sail {
+  background-color: #c9dfed;
+}
+.bf-or .swatch-sky {
+  background-color: #3498db;
+}
+.bf-or .swatch-blue {
+  background-color: #2980b9;
+}
+.bf-or .swatch-rain {
+  background-color: #b4c6d6;
+}
+.bf-or .swatch-wet-asphalt {
+  background-color: #4c638c;
+}
+.bf-or .swatch-midnight-blue {
+  background-color: #2b3d4f;
+}
+.bf-or .swatch-clouds {
+  background-color: #ebeff1;
+}
+.bf-or .swatch-platinum {
+  background-color: #dde1e2;
+}
+.bf-or .swatch-silver {
+  background-color: #bcc2c7;
+}
+.bf-or .swatch-concrete {
+  background-color: #95a5a6;
+}
+.bf-or .swatch-storm {
+  background-color: #545b5b;
+}
+.bf-or .swatch-rvbd-orange {
+  background-color: #ff671b;
+}
+.bf-or .swatch-rvbd-orange-light {
+  background-color: #ff9560;
+}
+.bf-or .swatch-ruby {
+  background-color: #e61261;
+}
+.bf-or .swatch-sunset {
+  background-color: #f16722;
+}
+.bf-or .swatch-malibu {
+  background-color: #57addd;
+}
+.bf-or .swatch-dandelion {
+  background-color: #ffd961;
+}
+.bf-or .swatch-majesty {
+  background-color: #a87ebc;
+}
+.bf-or .swatch-olive {
+  background-color: #527109;
+}
+.bf-or .swatch-bittersweet {
+  background-color: #f76561;
+}
+.bf-or .swatch-meadow {
+  background-color: #16c4a3;
+}
+.bf-or .swatch-orchid {
+  background-color: #a11d89;
+}
+.bf-or .swatch-granny-smith {
+  background-color: #53c159;
+}
+.bf-or .swatch-cinnabar {
+  background-color: #d53b23;
+}
+.bf-or .swatch-lemon {
+  background-color: #f1c40f;
+}
+.bf-or .swatch-calypso {
+  background-color: #3e7285;
+}
+.bf-or .swatch-pistachio dd,
+.bf-or .swatch-sundown dd,
+.bf-or .swatch-lilac dd,
+.bf-or .swatch-mint dd,
+.bf-or .swatch-creamsicle dd,
+.bf-or .swatch-sail dd,
+.bf-or .swatch-rain dd,
+.bf-or .swatch-clouds dd,
+.bf-or .swatch-silver dd,
+.bf-or .swatch-platinum dd,
+.bf-or .swatch-oasis dd,
+.bf-or .swatch-dandelion dd {
+  color: #777;
+}

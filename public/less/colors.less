@@ -1,0 +1,164 @@
+/*Standard Color Palette*/
+@pistachio:                 #C9EAD7;
+@emerald:                   #2ECC71;
+@green:                     #27AE60;
+
+@oasis:                     #FCE6C4;
+@sunflower:                 #F1C40F;
+@orange:                    #F39C12;
+
+@sundown:                   #FAE7EA;
+@tomato:                    #E74B3B;
+@pomegranate:               #BF382A;
+
+@lilac:                     #E3D0EA;
+@amethyst:                  #AF79C5;
+@wisteria:                  #8E44AD;
+
+@mint:                      #C4E7E0;
+@turquoise:                 #1ABC9C;
+@green-sea:                 #16A085;
+
+@creamsicle:                #FDD5B5;
+@carrot:                    #F16722;
+@red:                       #D53B23;
+
+@sail:                      #C9DFED;
+@sky:                       #3498DB;
+@blue:                      #2980B9;
+
+@rain:                      #B4C6D6;
+@wet-asphalt:               #4C638C;
+@midnight-blue:             #2B3D4F;
+
+@clouds:                    #EBEFF1;
+@platinum:                  #DDE1E2;
+@silver:                    #BCC2C7;
+@concrete:                  #95A5A6;
+@storm:                     #545B5B;
+
+@rvbd-orange:               #FF671B;
+@rvbd-orange-light:         #FF9560;
+
+@white:                     #FFF;
+
+/*Chart Colors*/
+//@wisteria:                  @wisteria;
+//@green-sea:                 @green-sea;
+//@orange:                    @orange;
+//@blue:                      @blue;
+@ruby:                      #E61261;
+//@midnight-blue:             @midnight-blue;
+//@green:                     @green;
+@sunset:                    #F16722;
+@malibu:                    #57ADDD;
+@dandelion:                 #FFD961;
+@majesty:                   #A87EBC;
+@olive:                     #527109;
+//@wet-asphalt:               @wet-asphalt;
+@bittersweet:               #F76561;
+@meadow:                    #16C4A3;
+@orchid:                    #A11D89;
+@granny-smith:              #53C159;
+@cinnabar:                  #D53B23;
+@lemon:                     #F1C40F;
+@calypso:                   #3E7285;
+
+/* A mixin for generating color classes */
+.color-variant(@color) {
+  .bg-@{color} {
+    background-color: ~"@{@{color}}";
+  }
+  .@{color} {
+    color: ~"@{@{color}}";
+  }
+}
+
+/* Standard Swatch definitions */
+.color-variant(emerald);
+.color-variant(pistachio);
+.color-variant(green);
+
+.color-variant(oasis);
+.color-variant(sunflower);
+.color-variant(orange);
+
+.color-variant(sundown);
+.color-variant(tomato);
+.color-variant(pomegranate);
+
+.color-variant(lilac);
+.color-variant(amethyst);
+.color-variant(wisteria);
+
+.color-variant(mint);
+.color-variant(turquoise);
+.color-variant(green-sea);
+
+.color-variant(creamsicle);
+.color-variant(carrot);
+.color-variant(red);
+
+.color-variant(sail);
+.color-variant(sky);
+.color-variant(blue);
+
+.color-variant(rain);
+.color-variant(wet-asphalt);
+.color-variant(midnight-blue);
+
+.color-variant(clouds);
+.color-variant(platinum);
+.color-variant(silver);
+.color-variant(concrete);
+.color-variant(storm);
+.color-variant(white);
+
+.color-variant(rvbd-orange);
+.color-variant(rvbd-orange-light);
+
+/* Chart Swatch definitions */
+//.color-variant(wisteria);
+//.color-variant(green-sea);
+//.color-variant(orange);
+//.color-variant(blue);
+.color-variant(ruby);
+//.color-variant(midnight-blue);
+//.color-variant(green);
+.color-variant(sunset);
+.color-variant(malibu);
+.color-variant(dandelion);
+.color-variant(majesty);
+.color-variant(olive);
+//.color-variant(wet-asphalt);
+.color-variant(bittersweet);
+.color-variant(meadow);
+.color-variant(orchid);
+.color-variant(granny-smith);
+.color-variant(cinnabar);
+.color-variant(lemon);
+.color-variant(calypso);
+
+.text-critical {
+  .pomegranate;
+}
+
+.text-degraded {
+  .orange;
+}
+
+.text-healthy-attn {
+  .green;
+}
+
+.bg-critical {
+  .pomegranate;
+}
+
+.bg-degraded {
+  .orange;
+}
+
+.bg-healthy-attn {
+  .green;
+}

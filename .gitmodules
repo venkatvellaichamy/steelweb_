@@ -1,0 +1,3 @@
+[submodule "ext/bigfoot"]
+	path = ext/bigfoot
+	url = git@gitlab.lab.nbttech.com:dev-framework-ui/bigfoot.git

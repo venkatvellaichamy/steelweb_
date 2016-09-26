@@ -1,0 +1,380 @@
+/*Standard Color Palette*/
+/*Chart Colors*/
+/* A mixin for generating color classes */
+/* Standard Swatch definitions */
+.bg-emerald {
+  background-color: #2ecc71;
+}
+.emerald {
+  color: #2ecc71;
+}
+.bg-pistachio {
+  background-color: #c9ead7;
+}
+.pistachio {
+  color: #c9ead7;
+}
+.bg-green {
+  background-color: #27ae60;
+}
+.green {
+  color: #27ae60;
+}
+.bg-oasis {
+  background-color: #fce6c4;
+}
+.oasis {
+  color: #fce6c4;
+}
+.bg-sunflower {
+  background-color: #f1c40f;
+}
+.sunflower {
+  color: #f1c40f;
+}
+.bg-orange {
+  background-color: #f39c12;
+}
+.orange {
+  color: #f39c12;
+}
+.bg-sundown {
+  background-color: #fae7ea;
+}
+.sundown {
+  color: #fae7ea;
+}
+.bg-tomato {
+  background-color: #e74b3b;
+}
+.tomato {
+  color: #e74b3b;
+}
+.bg-pomegranate {
+  background-color: #bf382a;
+}
+.pomegranate {
+  color: #bf382a;
+}
+.bg-lilac {
+  background-color: #e3d0ea;
+}
+.lilac {
+  color: #e3d0ea;
+}
+.bg-amethyst {
+  background-color: #af79c5;
+}
+.amethyst {
+  color: #af79c5;
+}
+.bg-wisteria {
+  background-color: #8e44ad;
+}
+.wisteria {
+  color: #8e44ad;
+}
+.bg-mint {
+  background-color: #c4e7e0;
+}
+.mint {
+  color: #c4e7e0;
+}
+.bg-turquoise {
+  background-color: #1abc9c;
+}
+.turquoise {
+  color: #1abc9c;
+}
+.bg-green-sea {
+  background-color: #16a085;
+}
+.green-sea {
+  color: #16a085;
+}
+.bg-creamsicle {
+  background-color: #fdd5b5;
+}
+.creamsicle {
+  color: #fdd5b5;
+}
+.bg-carrot {
+  background-color: #f16722;
+}
+.carrot {
+  color: #f16722;
+}
+.bg-red {
+  background-color: #d53b23;
+}
+.red {
+  color: #d53b23;
+}
+.bg-sail {
+  background-color: #c9dfed;
+}
+.sail {
+  color: #c9dfed;
+}
+.bg-sky {
+  background-color: #3498db;
+}
+.sky {
+  color: #3498db;
+}
+.bg-blue {
+  background-color: #2980b9;
+}
+.blue {
+  color: #2980b9;
+}
+.bg-rain {
+  background-color: #b4c6d6;
+}
+.rain {
+  color: #b4c6d6;
+}
+.bg-wet-asphalt {
+  background-color: #4c638c;
+}
+.wet-asphalt {
+  color: #4c638c;
+}
+.bg-midnight-blue {
+  background-color: #2b3d4f;
+}
+.midnight-blue {
+  color: #2b3d4f;
+}
+.bg-clouds {
+  background-color: #ebeff1;
+}
+.clouds {
+  color: #ebeff1;
+}
+.bg-platinum {
+  background-color: #dde1e2;
+}
+.platinum {
+  color: #dde1e2;
+}
+.bg-silver {
+  background-color: #bcc2c7;
+}
+.silver {
+  color: #bcc2c7;
+}
+.bg-concrete {
+  background-color: #95a5a6;
+}
+.concrete {
+  color: #95a5a6;
+}
+.bg-storm {
+  background-color: #545b5b;
+}
+.storm {
+  color: #545b5b;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.white {
+  color: #ffffff;
+}
+.bg-rvbd-orange {
+  background-color: #ff671b;
+}
+.rvbd-orange {
+  color: #ff671b;
+}
+.bg-rvbd-orange-light {
+  background-color: #ff9560;
+}
+.rvbd-orange-light {
+  color: #ff9560;
+}
+/* Chart Swatch definitions */
+.bg-ruby {
+  background-color: #e61261;
+}
+.ruby {
+  color: #e61261;
+}
+.bg-sunset {
+  background-color: #f16722;
+}
+.sunset {
+  color: #f16722;
+}
+.bg-malibu {
+  background-color: #57addd;
+}
+.malibu {
+  color: #57addd;
+}
+.bg-dandelion {
+  background-color: #ffd961;
+}
+.dandelion {
+  color: #ffd961;
+}
+.bg-majesty {
+  background-color: #a87ebc;
+}
+.majesty {
+  color: #a87ebc;
+}
+.bg-olive {
+  background-color: #527109;
+}
+.olive {
+  color: #527109;
+}
+.bg-bittersweet {
+  background-color: #f76561;
+}
+.bittersweet {
+  color: #f76561;
+}
+.bg-meadow {
+  background-color: #16c4a3;
+}
+.meadow {
+  color: #16c4a3;
+}
+.bg-orchid {
+  background-color: #a11d89;
+}
+.orchid {
+  color: #a11d89;
+}
+.bg-granny-smith {
+  background-color: #53c159;
+}
+.granny-smith {
+  color: #53c159;
+}
+.bg-cinnabar {
+  background-color: #d53b23;
+}
+.cinnabar {
+  color: #d53b23;
+}
+.bg-lemon {
+  background-color: #f1c40f;
+}
+.lemon {
+  color: #f1c40f;
+}
+.bg-calypso {
+  background-color: #3e7285;
+}
+.calypso {
+  color: #3e7285;
+}
+.text-critical {
+  color: #bf382a;
+}
+.text-degraded {
+  color: #f39c12;
+}
+.text-healthy-attn {
+  color: #27ae60;
+}
+.bg-critical {
+  color: #bf382a;
+}
+.bg-degraded {
+  color: #f39c12;
+}
+.bg-healthy-attn {
+  color: #27ae60;
+}
+body {
+  background-color: #ffffff;
+}
+.header-left {
+  float: left !important;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.header-right {
+  float: right !important;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+a.appliance-name {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  border-bottom: none;
+}
+span.system-info {
+  font-size: 12px;
+  margin-right: 15px;
+}
+span.username {
+  font-size: 12px;
+  color: #f16722;
+}
+a.sign-out {
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: none;
+}
+div.riverbed {
+  margin-top: 20px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  float: right;
+  color: #f16722;
+}
+div.user-info {
+  clear: both;
+}
+.nav > li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nav > li:last-child > a {
+  padding-right: 0px;
+}
+div.toolbar-shelf {
+  min-height: 60px;
+}
+h1.page-title {
+  display: inline-block;
+}
+.breadcrumb {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+.form-horizontal .control-label {
+  text-align: left;
+}
+.btn-lg {
+  min-width: 115px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.navbar-default {
+  min-height: 24px;
+}
+.fh-xs {
+  height: 175px;
+}
+.fh-sm {
+  height: 275px;
+}
+.fh-md {
+  height: 355px;
+}
+.fh-lg {
+  height: 425px;
+}
+.fh-xl {
+  height: 500px;
+}

@@ -1,0 +1,465 @@
+/*Standard Color Palette*/
+/*Chart Colors*/
+/* A mixin for generating color classes */
+/* Standard Swatch definitions */
+.bg-emerald {
+  background-color: #2ecc71;
+}
+.emerald {
+  color: #2ecc71;
+}
+.bg-pistachio {
+  background-color: #c9ead7;
+}
+.pistachio {
+  color: #c9ead7;
+}
+.bg-green {
+  background-color: #27ae60;
+}
+.green {
+  color: #27ae60;
+}
+.bg-oasis {
+  background-color: #fce6c4;
+}
+.oasis {
+  color: #fce6c4;
+}
+.bg-sunflower {
+  background-color: #f1c40f;
+}
+.sunflower {
+  color: #f1c40f;
+}
+.bg-orange {
+  background-color: #f39c12;
+}
+.orange {
+  color: #f39c12;
+}
+.bg-sundown {
+  background-color: #fae7ea;
+}
+.sundown {
+  color: #fae7ea;
+}
+.bg-tomato {
+  background-color: #e74b3b;
+}
+.tomato {
+  color: #e74b3b;
+}
+.bg-pomegranate {
+  background-color: #bf382a;
+}
+.pomegranate {
+  color: #bf382a;
+}
+.bg-lilac {
+  background-color: #e3d0ea;
+}
+.lilac {
+  color: #e3d0ea;
+}
+.bg-amethyst {
+  background-color: #af79c5;
+}
+.amethyst {
+  color: #af79c5;
+}
+.bg-wisteria {
+  background-color: #8e44ad;
+}
+.wisteria {
+  color: #8e44ad;
+}
+.bg-mint {
+  background-color: #c4e7e0;
+}
+.mint {
+  color: #c4e7e0;
+}
+.bg-turquoise {
+  background-color: #1abc9c;
+}
+.turquoise {
+  color: #1abc9c;
+}
+.bg-green-sea {
+  background-color: #16a085;
+}
+.green-sea {
+  color: #16a085;
+}
+.bg-creamsicle {
+  background-color: #fdd5b5;
+}
+.creamsicle {
+  color: #fdd5b5;
+}
+.bg-carrot {
+  background-color: #f16722;
+}
+.carrot {
+  color: #f16722;
+}
+.bg-red {
+  background-color: #d53b23;
+}
+.red {
+  color: #d53b23;
+}
+.bg-sail {
+  background-color: #c9dfed;
+}
+.sail {
+  color: #c9dfed;
+}
+.bg-sky {
+  background-color: #3498db;
+}
+.sky {
+  color: #3498db;
+}
+.bg-blue {
+  background-color: #2980b9;
+}
+.blue {
+  color: #2980b9;
+}
+.bg-rain {
+  background-color: #b4c6d6;
+}
+.rain {
+  color: #b4c6d6;
+}
+.bg-wet-asphalt {
+  background-color: #4c638c;
+}
+.wet-asphalt {
+  color: #4c638c;
+}
+.bg-midnight-blue {
+  background-color: #2b3d4f;
+}
+.midnight-blue {
+  color: #2b3d4f;
+}
+.bg-clouds {
+  background-color: #ebeff1;
+}
+.clouds {
+  color: #ebeff1;
+}
+.bg-platinum {
+  background-color: #dde1e2;
+}
+.platinum {
+  color: #dde1e2;
+}
+.bg-silver {
+  background-color: #bcc2c7;
+}
+.silver {
+  color: #bcc2c7;
+}
+.bg-concrete {
+  background-color: #95a5a6;
+}
+.concrete {
+  color: #95a5a6;
+}
+.bg-storm {
+  background-color: #545b5b;
+}
+.storm {
+  color: #545b5b;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.white {
+  color: #ffffff;
+}
+.bg-rvbd-orange {
+  background-color: #ff671b;
+}
+.rvbd-orange {
+  color: #ff671b;
+}
+.bg-rvbd-orange-light {
+  background-color: #ff9560;
+}
+.rvbd-orange-light {
+  color: #ff9560;
+}
+/* Chart Swatch definitions */
+.bg-ruby {
+  background-color: #e61261;
+}
+.ruby {
+  color: #e61261;
+}
+.bg-sunset {
+  background-color: #f16722;
+}
+.sunset {
+  color: #f16722;
+}
+.bg-malibu {
+  background-color: #57addd;
+}
+.malibu {
+  color: #57addd;
+}
+.bg-dandelion {
+  background-color: #ffd961;
+}
+.dandelion {
+  color: #ffd961;
+}
+.bg-majesty {
+  background-color: #a87ebc;
+}
+.majesty {
+  color: #a87ebc;
+}
+.bg-olive {
+  background-color: #527109;
+}
+.olive {
+  color: #527109;
+}
+.bg-bittersweet {
+  background-color: #f76561;
+}
+.bittersweet {
+  color: #f76561;
+}
+.bg-meadow {
+  background-color: #16c4a3;
+}
+.meadow {
+  color: #16c4a3;
+}
+.bg-orchid {
+  background-color: #a11d89;
+}
+.orchid {
+  color: #a11d89;
+}
+.bg-granny-smith {
+  background-color: #53c159;
+}
+.granny-smith {
+  color: #53c159;
+}
+.bg-cinnabar {
+  background-color: #d53b23;
+}
+.cinnabar {
+  color: #d53b23;
+}
+.bg-lemon {
+  background-color: #f1c40f;
+}
+.lemon {
+  color: #f1c40f;
+}
+.bg-calypso {
+  background-color: #3e7285;
+}
+.calypso {
+  color: #3e7285;
+}
+.text-critical {
+  color: #bf382a;
+}
+.text-degraded {
+  color: #f39c12;
+}
+.text-healthy-attn {
+  color: #27ae60;
+}
+.bg-critical {
+  color: #bf382a;
+}
+.bg-degraded {
+  color: #f39c12;
+}
+.bg-healthy-attn {
+  color: #27ae60;
+}
+/*
+ * Base structure
+ */
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 60px;
+}
+/*
+ * Global add-ons
+ */
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+  height: 60px;
+}
+.navbar-brand {
+  padding: 15px 30px;
+}
+.navbar-brand img {
+  height: 30px;
+}
+.navbar-default {
+  background: #ffffff;
+}
+/*
+ * Sidebar
+ */
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+    background-color: #2b3d4f;
+  }
+  .sidebar h6 {
+    color: #4c638c;
+  }
+}
+.sidebar-tools {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 15px 10px;
+  color: #2b3d4f;
+  background-color: #4c638c;
+}
+.sidebar-tools i {
+  padding: 0px 20px;
+}
+/* Sidebar navigation */
+.nav.nav-sidebar {
+  margin-right: -21px;
+  /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav.nav-sidebar li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #ebeff1;
+}
+.nav.nav-sidebar li > a i {
+  padding-right: 25px;
+}
+.nav.nav-sidebar .active > a,
+.nav.nav-sidebar .active > a:hover,
+.nav.nav-sidebar .active > a:focus {
+  color: #dde1e2;
+  background-color: #f16722;
+}
+.nav.nav-sidebar a:hover,
+.nav.nav-sidebar a:focus {
+  background-color: #4c638c;
+}
+/*
+ * Main content
+ */
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+h3.panel-title {
+  color: #545b5b;
+}
+.activity-feed {
+  display: none;
+  background-color: #ebeff1;
+}
+.activity-feed h3,
+.activity-feed h6,
+.activity-feed p {
+  font-weight: 300;
+  color: #545b5b;
+}
+@media (min-width: 768px) {
+  .activity-feed {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+    background-color: #ebeff1;
+  }
+}
+.activity-items {
+  border-left: 1px solid #bcc2c7;
+  padding: 0px 25px;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+.activity-item {
+  min-height: 95px;
+  position: relative;
+}
+.activity-item a {
+  color: #3498db;
+  border-bottom: 1px solid #3498db;
+}
+.activity-item .timeline-marker {
+  position: absolute;
+  left: -40px;
+  top: -8px;
+}
+/*
+ * Placeholder dashboard ideas
+ */
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
